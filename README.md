@@ -91,26 +91,86 @@
 ### **3. Backend Technologies:**
 
 - **MongoDB:**
-  - **Core Concepts:**
-    - [Introduction to MongoDB](https://www.mongodb.com/nosql-explained)
-    - [Document Structure](https://www.mongodb.com/docs/manual/core/document/)
-    - [Databases and Collections](https://www.mongodb.com/docs/manual/core/databases-and-collections/)
-  - **CRUD Operations:**
-    - [Insert Documents](https://www.mongodb.com/docs/manual/tutorial/insert-documents/)
-    - [Find Documents](https://www.mongodb.com/docs/manual/tutorial/query-documents/)
-    - [Update Documents](https://www.mongodb.com/docs/manual/tutorial/update-documents/)
-    - [Delete Documents](https://www.mongodb.com/docs/manual/tutorial/remove-documents/)
-  - **Indexes:**
-    - [Introduction to Indexes](https://www.mongodb.com/docs/manual/indexes/)
-    - [Create Indexes](https://www.mongodb.com/docs/manual/indexes/#create-an-index)
-    - [Compound Indexes](https://www.mongodb.com/docs/manual/core/index-compound/)
-  - **Aggregation:**
-    - [Aggregation Pipeline](https://www.mongodb.com/docs/manual/core/aggregation-pipeline/)
-    - [Using $match and $group](https://www.mongodb.com/docs/manual/reference/operator/aggregation/match/)
-    - [Projecting Fields](https://www.mongodb.com/docs/manual/reference/operator/aggregation/project/)
-  - **Replication & Sharding:**
-    - [Replica Sets](https://www.mongodb.com/docs/manual/replication/)
-    - [Sharding](https://www.mongodb.com/docs/manual/sharding/)
+
+
+### **Core Concepts:**
+- [Introduction to MongoDB](https://www.mongodb.com/docs/manual/introduction/)
+  - Overview of NoSQL databases
+  - [MongoDB Architecture](https://www.mongodb.com/docs/manual/core/)
+  - [Benefits of Using MongoDB](https://www.mongodb.com/docs/manual/introduction/#benefits)
+
+- [Document Structure](https://www.mongodb.com/docs/manual/core/document/)
+  - [BSON Data Types](https://www.mongodb.com/docs/manual/reference/bson-types/)
+  - [Embedded Documents](https://www.mongodb.com/docs/manual/core/document/#embedded-documents)
+  - [Arrays in Documents](https://www.mongodb.com/docs/manual/tutorial/model-data-for-one-to-many-relationships/)
+
+- [Databases and Collections](https://www.mongodb.com/docs/manual/core/databases-and-collections/)
+  - [Creating a Database](https://www.mongodb.com/docs/manual/reference/method/db.createCollection/)
+  - [Creating Collections](https://www.mongodb.com/docs/manual/core/databases-and-collections/#collections)
+  - [Capped Collections](https://www.mongodb.com/docs/manual/core/capped-collections/)
+
+### **CRUD Operations:**
+- [Insert Documents](https://www.mongodb.com/docs/manual/tutorial/insert-documents/)
+  - [Insert One](https://www.mongodb.com/docs/manual/reference/method/db.collection.insertOne/)
+  - [Insert Many](https://www.mongodb.com/docs/manual/reference/method/db.collection.insertMany/)
+  - [Bulk Write](https://www.mongodb.com/docs/manual/reference/method/db.collection.bulkWrite/)
+
+- [Find Documents](https://www.mongodb.com/docs/manual/tutorial/query-documents/)
+  - [Query Selectors](https://www.mongodb.com/docs/manual/reference/operator/query/)
+  - [Projection](https://www.mongodb.com/docs/manual/tutorial/project-fields-from-query-results/)
+  - [Sorting Results](https://www.mongodb.com/docs/manual/reference/method/cursor.sort/)
+
+- [Update Documents](https://www.mongodb.com/docs/manual/tutorial/update-documents/)
+  - [Update One](https://www.mongodb.com/docs/manual/reference/method/db.collection.updateOne/)
+  - [Update Many](https://www.mongodb.com/docs/manual/reference/method/db.collection.updateMany/)
+  - [Replace One](https://www.mongodb.com/docs/manual/reference/method/db.collection.replaceOne/)
+
+- [Delete Documents](https://www.mongodb.com/docs/manual/tutorial/remove-documents/)
+  - [Delete One](https://www.mongodb.com/docs/manual/reference/method/db.collection.deleteOne/)
+  - [Delete Many](https://www.mongodb.com/docs/manual/reference/method/db.collection.deleteMany/)
+
+### **Indexes:**
+- [Introduction to Indexes](https://www.mongodb.com/docs/manual/indexes/)
+  - [Types of Indexes](https://www.mongodb.com/docs/manual/indexes/#index-types)
+  - [Single Field Indexes](https://www.mongodb.com/docs/manual/core/index-single/)
+  - [Compound Indexes](https://www.mongodb.com/docs/manual/core/index-compound/)
+
+- [Create Indexes](https://www.mongodb.com/docs/manual/reference/method/db.collection.createIndex/)
+  - [Create a Single Field Index](https://www.mongodb.com/docs/manual/reference/method/db.collection.createIndex/#create-a-single-field-index)
+  - [Create a Compound Index](https://www.mongodb.com/docs/manual/core/index-compound/#create-a-compound-index)
+  - [Create a Text Index](https://www.mongodb.com/docs/manual/core/index-text/)
+
+- [Compound Indexes](https://www.mongodb.com/docs/manual/core/index-compound/)
+  - [Order of Fields](https://www.mongodb.com/docs/manual/core/index-compound/#order-of-fields-in-compound-index)
+  - [Queries Supported by Compound Indexes](https://www.mongodb.com/docs/manual/core/index-compound/#queries-supported-by-compound-indexes)
+  - [Index Intersection](https://www.mongodb.com/docs/manual/core/index-intersection/)
+
+### **Aggregation:**
+- [Aggregation Pipeline](https://www.mongodb.com/docs/manual/core/aggregation-pipeline/)
+  - [Stages in Aggregation](https://www.mongodb.com/docs/manual/core/aggregation-pipeline/#aggregation-pipeline-stages)
+  - [Operators](https://www.mongodb.com/docs/manual/reference/operator/aggregation-pipeline/)
+  - [Expression Operators](https://www.mongodb.com/docs/manual/reference/operator/aggregation/expression/)
+
+- [Using $match and $group](https://www.mongodb.com/docs/manual/reference/operator/aggregation/match/)
+  - [$match Operator](https://www.mongodb.com/docs/manual/reference/operator/aggregation/match/)
+  - [$group Operator](https://www.mongodb.com/docs/manual/reference/operator/aggregation/group/)
+  - [Grouping with $group](https://www.mongodb.com/docs/manual/tutorial/aggregation-group/)
+
+- [Projecting Fields](https://www.mongodb.com/docs/manual/reference/operator/aggregation/project/)
+  - [Inclusion and Exclusion](https://www.mongodb.com/docs/manual/reference/operator/aggregation/project/)
+  - [Computed Fields](https://www.mongodb.com/docs/manual/reference/operator/aggregation/project-computed/)
+  - [Using $project](https://www.mongodb.com/docs/manual/tutorial/aggregation-project-fields/)
+
+### **Replication & Sharding:**
+- [Replica Sets](https://www.mongodb.com/docs/manual/replication/)
+  - [Setting Up a Replica Set](https://www.mongodb.com/docs/manual/tutorial/deploy-replica-set/)
+  - [Replication Mechanics](https://www.mongodb.com/docs/manual/core/replication-mechanics/)
+  - [Failover and Recovery](https://www.mongodb.com/docs/manual/core/replica-set-elections/)
+
+- [Sharding](https://www.mongodb.com/docs/manual/sharding/)
+  - [Sharded Clusters](https://www.mongodb.com/docs/manual/core/sharded-cluster-components/)
+  - [Shard Keys](https://www.mongodb.com/docs/manual/core/sharding-shard-key/)
+  - [Balancing in Sharded Clusters](https://www.mongodb.com/docs/manual/core/sharding-balancing/)
 
 - **REST APIs:**
   - **Core Concepts:**
