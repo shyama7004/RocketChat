@@ -1,4 +1,4 @@
-# Function
+# Loops
 
 ### **1. Introduction to Loops in JavaScript**
 Loops are a fundamental concept in programming that allows you to repeat a block of code multiple times based on a condition. This is useful for tasks such as processing items in an array, performing repetitive calculations, or iterating over object properties.
