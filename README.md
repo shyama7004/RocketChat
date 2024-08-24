@@ -5,14 +5,14 @@
 
 - **JavaScript/TypeScript:**
   - **Core JavaScript:**
-    - [Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
-    - [Data Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-    - [Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
-    - [Control Flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
-    - [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
-    - [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-    - [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-    - [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+    - **Variables**: [Javascript Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
+    - **Data Types**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Data%20Types%20and%20Data%20Structures.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+    - **Operators**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Expressions%20and%20Operators.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+    - **Control Flow**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Control%20flow%20and%20error%20handling.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
+    - **Function**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Functions1.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+    - **Loops**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Function.md)  |  [Javsscript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+    - **Array**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Array.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+    - **Objects**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Objects.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
   - **Modern JavaScript (ES6+):**
     - [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
     - [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
@@ -96,18 +96,15 @@
 ### **Core Concepts:**
 - [Introduction to MongoDB](https://www.mongodb.com/docs/manual/introduction/)
   - Overview of NoSQL databases
-  - [MongoDB Architecture](https://www.mongodb.com/docs/manual/core/)
+  - **MongoDB Architecture**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/MongoDB%20Architecture.md)  |  [MongoDB Docs](https://www.mongodb.com/docs/manual/core/)
   - [Benefits of Using MongoDB](https://www.mongodb.com/docs/manual/introduction/#benefits)
 
-- [Document Structure](https://www.mongodb.com/docs/manual/core/document/)
-  - [BSON Data Types](https://www.mongodb.com/docs/manual/reference/bson-types/)
-  - [Embedded Documents](https://www.mongodb.com/docs/manual/core/document/#embedded-documents)
-  - [Arrays in Documents](https://www.mongodb.com/docs/manual/tutorial/model-data-for-one-to-many-relationships/)
+- **Document Structure**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Introduction%20to%20MongoDB%20Documents.md)  |  [MongoDB Docs](https://www.mongodb.com/docs/manual/core/document/)
+  - **BSON Data Types**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/BSON%20Types%20in%20MongoDB.md)  |  [MongoDB Docs](https://www.mongodb.com/docs/manual/reference/bson-types/)
 
-- [Databases and Collections](https://www.mongodb.com/docs/manual/core/databases-and-collections/)
-  - [Creating a Database](https://www.mongodb.com/docs/manual/reference/method/db.createCollection/)
-  - [Creating Collections](https://www.mongodb.com/docs/manual/core/databases-and-collections/#collections)
-  - [Capped Collections](https://www.mongodb.com/docs/manual/core/capped-collections/)
+- **Databases and Collections**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Databases%20and%20Collections.md)  |  [MongoDB Docs](https://www.mongodb.com/docs/manual/core/databases-and-collections/)
+  - **Creating a Database**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/db.createCollection().md)  |  [MongoDB Docs](https://www.mongodb.com/docs/manual/reference/method/db.createCollection/)
+  - **Capped Collections*: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Capped%20Collection.md)  |  [MongoDB Docs](https://www.mongodb.com/docs/manual/core/capped-collections/)
 
 ### **CRUD Operations:**
 - [Insert Documents](https://www.mongodb.com/docs/manual/tutorial/insert-documents/)
