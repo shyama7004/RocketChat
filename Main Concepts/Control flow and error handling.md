@@ -244,6 +244,41 @@ if (age < 18) {
   throw new Error("You must be at least 18 years old.");
 }
 ```
+<details>
+<summary>Click to get the full Code</summary>
+
+```cpp
+// Function that attempts to add a number to a variable
+function addNumbers(variable, numberToAdd) {
+  try {
+    // Attempt to perform the addition
+    let result = variable + numberToAdd;
+    console.log("The result is: " + result);
+  } catch (error) {
+    // Catch any errors that occur and log them
+    console.log("An error occurred: " + error.message);
+  } finally {
+    // Optional: Finally block that always runs, regardless of the outcome
+    console.log("The addNumbers function has completed.");
+  }
+}
+
+// Test cases
+
+// Case 1: Undefined variable (will throw an error)
+let undefinedVariable;
+addNumbers(undefinedVariable, 10);
+
+// Case 2: Variable is not a number (will throw an error)
+let stringVariable = "hello";
+addNumbers(stringVariable, 10);
+
+// Case 3: Both variables are numbers (no error)
+let numberVariable = 20;
+addNumbers(numberVariable, 10);
+
+```
+</details>
 
 **Explanation**:
 - If the `age` is less than 18, an error is thrown with a custom message. This stops further execution of the code unless handled in a `try...catch` block.
