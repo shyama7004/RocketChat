@@ -83,7 +83,10 @@ do {
 - The loop will print 0, 1, 2, 3, and 4.
 
 ### **5. The `for...in` Loop**
-The `for...in` loop is used to iterate over the enumerable properties of an object. It goes through all the properties that are directly attached to the object (not inherited properties).
+The `for...in` loop is used to iterate over the enumerable properties of an object. It goes through all the properties that are directly attached to the object (not inherited 
+properties).
+
+`Note` : An enumerable property is one that can be included in and visited during `for..in` loops (or a similar iteration of properties, like `Object.keys()`).
 
 **5.1 Structure of a `for...in` Loop**
 **Syntax:**
@@ -230,9 +233,7 @@ for (let prop in car) {
 - The loop iterates over each property in the `car` object.
 - It prints each property name and its value, like "make: Toyota", "model: Camry", and "year: 2020".
 
-### **12. Loop
-
- Performance and Optimization**
+### **12. Loop Performance and Optimization**
 When working with large data sets or complex operations, loop performance can become an issue. Here are some tips to optimize loops:
 
 - **Cache Array Length:** If you loop through an array multiple times, cache the array’s length in a variable.
