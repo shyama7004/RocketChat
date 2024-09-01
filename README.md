@@ -11,13 +11,14 @@
     - **Control Flow**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Control%20flow%20and%20error%20handling.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
     - **Function**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Functions1.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
     - **Loops**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Function.md)  |  [Javsscript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-    - **Array**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Array.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+    - **Array**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Introduction%20to%20Arrays.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+    - **Maps & Sets**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Ordered%20Sets%20and%20Maps.md)  
     - **Objects**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Objects.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
   - **Modern JavaScript (ES6+):**
     - **Arrow Functions**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Arrow%20Function%20Expressions%20in%20JavaScript.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-    - [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
-    - [Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
-    - [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+    - **Template Literals**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Template%20Literals.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+    - **Destructuring Assignment**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Destructuring%20Assignment.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+    - **Spread Operator**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Spread%20Syntax.md)  |  [Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
     - [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
     - [Async/Await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
   - **TypeScript Basics:**
@@ -104,7 +105,7 @@
 
 - **Databases and Collections**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Databases%20and%20Collections.md)  |  [MongoDB Docs](https://www.mongodb.com/docs/manual/core/databases-and-collections/)
   - **Creating a Database**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/db.createCollection().md)  |  [MongoDB Docs](https://www.mongodb.com/docs/manual/reference/method/db.createCollection/)
-  - **Capped Collections*: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Capped%20Collection.md)  |  [MongoDB Docs](https://www.mongodb.com/docs/manual/core/capped-collections/)
+  - **Capped Collections**: [My Docs](https://github.com/shyama7004/RocketChat/blob/main/Main%20Concepts/Capped%20Collection.md)  |  [MongoDB Docs](https://www.mongodb.com/docs/manual/core/capped-collections/)
 
 ### **CRUD Operations:**
 - [Insert Documents](https://www.mongodb.com/docs/manual/tutorial/insert-documents/)
