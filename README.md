@@ -252,19 +252,18 @@
 
 - **Rocket.Chat:**
   - **User Basics:**
-    - [Getting Started with Rocket.Chat](https://docs.rocket.chat/guides/user-guides/getting-started)
-    - [Creating Channels](https://docs.rocket.chat/guides/user-guides/channels-and-discussions)
-    - [Sending Messages and Files](https://docs.rocket.chat/guides/user-guides/messages)
+    - [Getting Started with Rocket.Chat](https://docs.rocket.chat/getting-started/getting-started-with-rocket.chat)
+    - [Creating Channels](https://docs.rocket.chat/getting-started/channels-and-discussions)
+    - [Sending Messages and Files](https://docs.rocket.chat/getting-started/messages)
   - **Developer Guide:**
-    - [Introduction to Rocket.Chat Development](https://developer.rocket.chat/guides/getting-started)
-    - [Setting up Rocket.Chat Development Environment](https://developer.rocket.chat/guides/quick-start)
+    - [Introduction to Rocket.Chat Development](https://developer.rocket.chat/developer/developer-guides/introduction)
+    - [Setting up Rocket.Chat Development Environment](https://developer.rocket.chat/developer/developer-guides/quick-start)
     - [Using the Rocket.Chat API](https://developer.rocket.chat/api/rest-api/endpoints/core-endpoints)
-    - **Additional:** [Rocket.Chat Architecture Overview](https://developer.rocket.chat/architecture/overview)
+    - **Additional:** [Rocket.Chat Architecture Overview](https://developer.rocket.chat/developer/developer-guides/architecture-overview)
   - **Bot Development:**
-    - [Building a Rocket.Chat Bot](https://developer.rocket.chat/guides/bots/building)
-    - [Using Rocket.Chat Apps Engine](https://developer.rocket.chat/guides/apps/engine)
-    - **Additional:** [Developing Rocket.Chat Apps](https://developer.rocket.chat/guides/apps/developing)
-
+    - [Building a Rocket.Chat Bot](https://developer.rocket.chat/developer/bots/building)
+    - [Using Rocket.Chat Apps Engine](https://developer.rocket.chat/developer/apps/engine)
+    - **Additional:** [Developing Rocket.Chat Apps](https://developer.rocket.chat/developer/apps/developing)
 ### **Additional Resources:**
 - **UI/UX:**
   - [Customizing Rocket.Chat’s Interface](https://docs.rocket.chat/guides/admin-guides/customize-interface)
